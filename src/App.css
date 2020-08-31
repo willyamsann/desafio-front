@@ -1,38 +1,49 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+
+body{
+  background: radial-gradient(circle, rgba(161,0,255,1) 0%, rgba(128,74,191,1) 100%);
+}
+.App{
+  background: #360354;
+  min-height: 600px;
+  width: 500px;
+  margin: 40px auto;
+  border-radius: 2%;
+
+
+}
+#h1{
   text-align: center;
+  color:white;
+  margin:0;
+  
+ font-family: 'Alata', sans-serif;
+}
+#todo-form input{
+  background: whitesmoke;
+  border: 0;
+  width: 320px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  border-radius: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+#todo-form input::placeholder{
+ color:black;
+ font-weight:bold;
+ font-family: 'Alata', sans-serif;  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+#todo-form input::focus{
+ outline: none;
+ }
+ #todo-form button{
+   height: 50px;
+   width: 80px;
+   border-radius: 15px;
+   background: radial-gradient(circle, rgba(0,194,255,1) 0%, rgba(74,191,178,1) 100%);
+ }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

@@ -1,0 +1,92 @@
+.listtrue{
+  
+    color: #fff;
+    width: 470px;
+    margin: 20px auto;
+    height: 50px;
+    background: linear-gradient(90deg, rgba(110,66,105,1) 0%, rgba(0,255,55,1) 0%, rgba(255,255,255,0.5046393557422969) 100%);
+     border-radius: 5px;
+}
+.listtrue p{
+    text-underline-position: initial;
+   
+    padding: 12px;
+    position: relative;
+    transition: ease-in-out;
+}
+.listtrue p input{
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    font-size: 18px;
+}
+.listtrue p input:focus{
+    outline: none;
+}
+.listtrue p span{
+    position: absolute;
+    right: 10px;
+top:2px;
+    padding: 0 100  0;
+    
+
+}
+.listfalse{
+    color: #fff;
+    width: 470px;
+    margin: 20px auto;
+    height: 50px;
+    background: linear-gradient(90deg, rgba(110,66,105,1) 0%, rgba(255,0,155,1) 0%, rgba(255,255,255,0.5046393557422969) 100%);
+    border-radius: 5px;
+}
+.listfalse p{
+    padding: 12px;
+    position: relative;
+    transition: ease-in-out;
+}
+.listfalse p input{
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    font-size: 18px;
+}
+.listfalse p input:focus{
+    outline: none;
+}
+.listfalse p span{
+    position: absolute;
+    right: 10px;
+top:2px;
+    padding: 0 100  0;
+    
+
+}
+
+.faicons-check{
+    color: green;;
+    position: relative;
+    margin: 0 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.faicons{
+    color:red;
+    position: relative;
+    margin: 0 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.itemsAnim-enter{
+    opacity: 0.01;
+}
+.itemsAnim-enter .itemsAnim-enter-active{
+    opacity: 1;
+    transition: opacity 300ms ease-in
+}
+.itemsAnim-leave{
+    opacity: 1;
+}
+.itemsAnim-leave .itemsAnim-leave-active{
+    opacity: 0.01;
+    transition: opacity 300ms ease-in
+}
